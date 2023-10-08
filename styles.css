@@ -1,13 +1,14 @@
-.switch {
-    display: flex;
-    align-items: center;
+#theme-info {
     position: absolute;
     top: 10px;
     right: 10px;
+    display: flex;
+    align-items: center;
+    color: #a5a5a5;
 }
 
-.switch label {
-    margin-left: 10px;
+#theme-info .switch {
+    margin-right: 10px;
 }
 
 .light-mode {
